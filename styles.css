@@ -1,15 +1,10 @@
-html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,.nfDropDown.theme-lakira .label,.searchInput, .searchInput input {
+html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,
+.nfDropDown.theme-lakira .label,.member-header, .profiles-container .profiles-container-active,.searchInput, .searchInput input, .account-drop-down,.sub-menu{
     background: #eee!important;
     color: #121212!important;
 }
-.lolomo.is-fullbleed{
-    margin-top: 0px!important;
-}
 
-.volatile-billboard-animations-container{
-    display: none!important;
-
-}
+/* header */
 .pinning-header{
     margin-bottom: 0px;
 }
@@ -17,22 +12,49 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,.nfDro
 .row-header-title {
     color: #121212!important;
 }
+.lolomo.is-fullbleed{
+    margin-top: 0px!important;
+}
 
-.progress-bar{
-    background-color: #121212d8!important;
+/* profile */
+#profileSelector a, #profileSelector .links a{
+    color: #121212!important;
+}
+#profileSelector .profile-manage, #profileSelector .links  {
+    background-color: #eee!important;
+}
+
+/* notifications */
+.image-text-notification{
+    background: #eee!important;
+}
+
+.header, .body, .age{
+    color: #121212!important;
+}
+
+/* videos */
+.volatile-billboard-animations-container{
+    display: none!important;
 }
 
 .lolomoRow {
     margin: 10px !important;
 }
-.aro-row-header {
+
+.progress-bar{
+    background-color: #121212d8!important;
+}
+
+
+.aro-row-header{
     color: #121212!important;
 }
 .social-links a,.icon-search{
     color: #121212!important;
 }
 
-.caret {
+.caret, .profile-arrow {
     border-color: #121212 transparent!important; 
 }
 .ptrack-content a{
@@ -41,7 +63,7 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,.nfDro
 
 
 /* preview mode */
-.previewModal--detailsMetadata.detail-modal,.previewModal--info,.previewModal--metadatAndControls-container{
+.previewModal--detailsMetadata.detail-modal,.titleGroup--wrapper, .previewModal--info,.previewModal--metadatAndControls-container{
     background-color: #eee!important;
     color: #121212!important;
 }
@@ -85,3 +107,4 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,.nfDro
 .section-divider{
     background-image: none!important;
 }
+
