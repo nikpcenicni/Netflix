@@ -1,0 +1,27 @@
+{
+    "name": "netflix",
+    "description": "netflix rearanger",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [ "jquery.js", "./background.js"]
+    },
+
+    "browser_action": {
+
+    },
+    "permissions": [
+        "tabs",
+        "*://*.netflix.com/*",
+        "storage"
+    ],
+    "content_scripts": 
+    [
+        {
+            "matches":["*://*.netflix.com/"],
+            "js":["content.js"],
+            "css": ["styles.css"],
+            "run_at": "document_end"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,.nfDropDown.theme-lakira .label,.searchInput, .searchInput input {
+    background: #eee!important;
+    color: #121212!important;
+}
+.lolomo.is-fullbleed{
+    margin-top: 0px!important;
+}
+
+.volatile-billboard-animations-container{
+    display: none!important;
+
+}
+.pinning-header{
+    margin-bottom: 0px;
+}
+
+.row-header-title {
+    color: #121212!important;
+}
+
+.progress-bar{
+    background-color: #121212d8!important;
+}
+
+.lolomoRow {
+    margin: 10px !important;
+}
+.aro-row-header {
+    color: #121212!important;
+}
+.social-links a,.icon-search{
+    color: #121212!important;
+}
+
+.caret {
+    border-color: #121212 transparent!important; 
+}
+.ptrack-content a{
+    color: #121212!important;
+}
+
+
+/* preview mode */
+.previewModal--detailsMetadata.detail-modal,.previewModal--info,.previewModal--metadatAndControls-container{
+    background-color: #eee!important;
+    color: #121212!important;
+}
+.detail-modal-container{
+    background: #eee ;
+}
+
+.videoMetadata--second-line, .evidence-text{
+    color: #121212!important;
+}
+
+.player-feature-badge,.maturity-number{
+    color: #121212!important;
+    border: 1px solid #121212!important;
+}
+
+.previewModal--tags-label{
+    color: black!important;
+}
+.tag-item a, .tag-more a,.summary{
+    color: #121212;
+}
+
+.previewModal--metadatAndControls .previewModal--metadatAndControls-container .previewModal-progress .summary{
+    color: #121212!important;
+}
+
+.episodeSelector,.moreLikeThis--wrapper,.about-wrapper,.titleCard--metadataWrapper,.trailersAndMore--wrapper,.dropdown-toggle,.episodeSelector-dropdown{
+    color: #121212!important;
+    background-color: #eee!important;
+}
+.episodeSelector .episodeSelector-container .episode-item.current{
+    background-color: #d8d8d8!important;
+}
+.titleCard-title_index,.titleCard-title_text,.titleCard-synopsis{
+    color: #121212!important;
+}
+.titleCard-playIcon{
+    color: #eee;
+}
+.section-divider{
+    background-image: none!important;
+}
