@@ -1,4 +1,4 @@
-html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,
+html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper, .aro-grid, .aro-grid-toggle, .sub-menu-link,
 .nfDropDown.theme-lakira .label,.member-header, .profiles-container .profiles-container-active,.searchInput, .searchInput input, .account-drop-down,.sub-menu{
     background: #eee!important;
     color: #121212!important;
@@ -16,6 +16,9 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,
     margin-top: 0px!important;
 }
 
+.aro-toggle .svg-icon-rows, .aro-toggle .svg-icon-grid{
+    color: #121212!important;
+}
 /* profile */
 #profileSelector a, #profileSelector .links a{
     color: #121212!important;
@@ -54,8 +57,8 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,
     color: #121212!important;
 }
 
-.caret, .profile-arrow {
-    border-color: #121212 transparent!important; 
+.caret, .profile-arro, .aro-row-toggle, .aro-grid{
+    border: 1px solid #121212!important;
 }
 .ptrack-content a{
     color: #121212!important;
@@ -63,7 +66,7 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,
 
 
 /* preview mode */
-.previewModal--detailsMetadata.detail-modal,.titleGroup--wrapper, .previewModal--info,.previewModal--metadatAndControls-container{
+.label, .previewModal--detailsMetadata.detail-modal,.titleGroup--wrapper, .previewModal--info,.previewModal--metadatAndControls-container{
     background-color: #eee!important;
     color: #121212!important;
 }
@@ -107,4 +110,3 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper,
 .section-divider{
     background-image: none!important;
 }
-
