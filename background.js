@@ -47,11 +47,11 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     try {
         switch(request.action) {
             case 'addSpace':
-                //chrome.tabs.insertCSS({file: "./genre.css"});
+                chrome.tabs.insertCSS({file: "./genre.css"});
                 chrome.storage.sync.set({ addSpace: true });
                 break;
             case 'removeSpace':
-                //chrome.tabs.removeCSS({file: "./genre.css"});
+                chrome.tabs.removeCSS({file: "./genre.css"});
                 chrome.storage.sync.set({ addSpace: false });
                 break;
             case "removeVideo":
@@ -107,12 +107,6 @@ function load(){
             chrome.tabs.removeCSS({file: "./styles.css"});
             console.log("css removed");
             //chrome.tabs.reload();
-        } 
-
-        if (data.addSpace) {
-            chrome.tabs.insertCSS({file: "./genre.css"});
-        } else if (!data.addSpace){
-            chrome.tabs.removeCSS({file: "./genre.css"});
         } 
    
      });
