@@ -5,16 +5,11 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper, .aro-
 }
 
 /* header */
-.pinning-header{
-    margin-bottom: 0px;
-}
 
 .row-header-title {
     color: #121212!important;
 }
-.lolomo.is-fullbleed{
-    margin-top: 0px!important;
-}
+
 
 .aro-toggle .svg-icon-rows, .aro-toggle .svg-icon-grid{
     color: #121212!important;
@@ -37,14 +32,6 @@ html, body, .main-header,.tabbed-primary-navigation a,.sub-header-wrapper, .aro-
 }
 
 /* videos */
-.volatile-billboard-animations-container{
-    display: none!important;
-}
-
-.lolomoRow {
-    margin: 10px !important;
-}
-
 .progress-bar{
     background-color: #121212d8!important;
 }

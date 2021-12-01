@@ -4,11 +4,12 @@
     "version": "1.0",
     "manifest_version": 2,
     "background": {
-        "scripts": ["./background.js"]
+        "scripts": ["./background.js"],
+        "persistent": false
     },
 
     "browser_action": {
-
+        "default_popup":"popup.html"
     },
     "permissions": [
         "tabs",
@@ -19,8 +20,7 @@
     [
         {
             "matches":["*://*.netflix.com/*"],
-            "js":["foreground.js"],
-            "css": ["styles.css"]
+            "js":["foreground.js"]
         }
     ]
 }

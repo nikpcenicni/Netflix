@@ -1,11 +1,38 @@
-const videoRemove = document.getElementById("videoRemove");
+const videoRemove = document.querySelector("input[id=videoPreview]");
 videoRemove.addEventListener("change", () => {
-    chrome.runtime.sendMessage({message: "removeVideo"});
-    console.log("sent Message");
+    var actionText = "";
+    if (videoRemove.checked) {
+        actionText = "removeVideo";
+    } else {
+        actionText = "addVideo";
+    }
+    console.log(actionText);
+    chrome.runtime.sendMessage({
+        action: actionText
+    }, function(response) {
+     });
 });
 
-function handleVideoRemove(e) {
-    var video = document.querySelector(".volatile-billboard-animations-container");
-    video.add
-    video.style.display = "none";
-}
+const darkMode = document.querySelector("input[id=darkMode]");
+darkMode.addEventListener("change", () => {
+    var actionText = "";
+    if (darkMode.checked) {
+        actionText = "removeCSS";
+    } else {
+        actionText = "addCSS";
+    }
+    console.log(actionText);
+    chrome.runtime.sendMessage({
+        action: actionText
+    }, function(response) {
+     });
+});
+
+
+var html = document.querySelector("html");
+html.addEventListener("load", () => {
+    
+});
+
+
+ 
