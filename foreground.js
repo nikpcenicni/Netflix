@@ -12,14 +12,13 @@ function onUrlChange() {
     var actionText = "" ;
     switch (location.href){
         case "https://www.netflix.com/browse/genre/83":
-            actionText = "addSpace";
-            break;
         case "https://www.netflix.com/browse/genre/34399":
             actionText = "addSpace";
             break;
-        case "https://www.netflix.com/browse":
-        case "https://www.netflix.com/latest":
-        case "https://www.netflix.com/browse/my-list":
+        // case "https://www.netflix.com/browse":
+        // case "https://www.netflix.com/latest":
+        // case "https://www.netflix.com/browse/my-list":
+        default:
             actionText = "removeSpace";
             break;
     }

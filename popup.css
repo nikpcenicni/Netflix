@@ -1,10 +1,18 @@
 body {
     width: 300px;
     height: 200px;
+    background-color: #292929;
+    color: #eee;
 }
+
+.light-mode {
+  background-color: #eee;
+  color: #121212;
+}
+
 .row{
   padding-top: 1em;
-  height: 40px;
+  height: 60px;
 }
 .row .text {
     float: left;
@@ -35,7 +43,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: rgb(112, 112, 112);
     -webkit-transition: .4s;
     transition: .4s;
   }
